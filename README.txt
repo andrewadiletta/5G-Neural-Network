@@ -14,10 +14,26 @@ This project includes these dependencies:
 
 python3
 pygame
+Numpy
 tensorflow
 tflearn
 
-After unzipping, please use main to initiate the GUI and the mesh tools.
+NOTE: This project only works on with python3. To Run, install the dependencies then run:
 
-good luck.
+python3 main.py
+
+
+The GUI will show the map on the left, some statistics on the bottom, and some buttons to experiment with on the right. You can increase and decrease the node count with the top two buttons. If the node count is small enough, the draw full mesh will enable, and you will be able to draw a full mesh connecting all the nodes.
+
+The Batman mesh and dijkatras algorithm are other ways of connecting the nodes. There isn't a need to train the neural network, as the network is pretrained. 
+
+The Blank Skynet Algorithm button will run on an untrained neural network. Slim skynet algorithm will run on a lightly trained neural network, and basic skynet algorithm will run on a more heavily trained network. 
+
+Ideally, you will see a difference between blank and basic skynet algorithms, which will show that the neural network effectively mapped the 5G network. 
+
+Shuffle changes the locations of the points. 
+
+You can see a demonstation of the code here: https://www.youtube.com/watch?v=hqFHVZR4Gjk&t=105s
+
+
 
